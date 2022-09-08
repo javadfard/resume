@@ -1,0 +1,195 @@
+a {}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #272929;
+}
+.nav-item{
+  width: 10em;
+}
+.nav-link.active {
+  color: rgb(37, 37, 37) !important;
+  background-color: rgba(240, 248, 255, 0.651) !important;
+}
+
+.open {
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+  width: 3em;
+  position: absolute !important;
+  right: 0.5em;
+  margin: auto;
+}
+
+.open:hover>.open-item {
+
+  display: block !important;
+  
+
+}
+.open-item:hover{
+  color: rgb(15, 189, 241) !important;
+}
+
+.open:hover>.open-icon {
+
+ 
+  margin-left: 0.2em !important;
+}
+
+.open:hover {
+  width: 15em !important;
+  background-color: rgba(62, 63, 63, 0.603) !important;
+  position: absolute !important;
+  margin: auto;
+  transition: 0.2s;
+  right: 0.5;
+  transition-timing-function: ease-in;
+  display: flex;
+  justify-content: start !important;
+  align-items: center !important;
+  padding: 0 0.4em;
+ 
+  
+
+}
+/* background: linear-gradient(
+  130deg,
+  #4796aa 0%,
+  #41b48e 36%,
+  #2f80c2 55%,
+  #0d9914 81%,
+  #13b881 99%
+),
+rgba(137, 15, 236, 0); */
+.btn-grad {
+  background-image: linear-gradient(to right, #4796aa 0%,
+  #41b48e81 36%,
+  #309b30a4 55%,
+  #0d99149d 81%,
+  #13b88186 99%);
+  
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+     
+  box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+  display: block;
+ 
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: viola;
+  src: url(../font/VIOLA.ttf);
+}
+.ff-viola{
+  font-family:viola ;
+}
+/* font */
+@font-face {
+  font-family: Cinema;
+  src: url(../font/Cinema\ Full.ttf);
+}
+.ff-Cinema{
+  font-family:Cinema ;
+}
+/* font */
+@font-face {
+  font-family: IRANSansWeb;
+  src: url(../font/IRANSansWeb.ttf);
+}
+.ff-viola{
+  font-family:IRANSansWeb ;
+}
+/* font */
+@font-face {
+  font-family: IRANSansWeb_Bold;
+  src: url(../font/IRANSansWeb_Bold.ttf);
+}
+.ff-IRANSansWeb_Bold{
+  font-family:IRANSansWeb_Bold ;
+}
+@font-face {
+  font-family: IRANSansWeb_Light;
+  src: url(../font/IRANSansWeb_Light.ttf);
+}
+.ff-IRANSansWeb_Light{
+  font-family:IRANSansWeb_Light ;
+}
+@font-face {
+  font-family: IRANSansWeb_UltraLight;
+  src: url(../font/IRANSansWeb_UltraLight.ttf);
+}
+.ff-IRANSansWeb_UltraLight{
+  font-family:IRANSansWeb_UltraLight ;
+}
+@font-face {
+  font-family: IRANSansWeb_Medium;
+  src: url(../font/IRANSansWeb_Medium.ttf);
+}
+.ff-IRANSansWeb_Medium{
+  font-family:IRANSansWeb_Medium;
+}
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(../font/Raleway-Regular.ttf);
+}
+.ff-Raleway-Regular{
+  font-family:Raleway-Regular;
+}
+/* font */
+body{
+  font-family: IRANSansWeb;
+
+}
+
+@media (max-width: 576px) { 
+
+body{
+  font-size: small;
+}
+li.nav-item{
+  width: 25%;
+}
+#social{
+  transform: translateX(1em) !important;
+
+}
+#number{
+  padding: 1em !important;
+  width: 35% !important;
+}
+ }
+.i-react:hover{
+color: rgb(29, 175, 201) !important;
+transition: 0.5s;
+}
+.i-js:hover{
+color: rgb(201, 78, 29) !important;
+transition: 0.5s;
+}
+.i-bootstrap:hover{
+color: rgb(29, 103, 201) !important;
+transition: 0.5s;
+}
+.i-sql:hover{
+color: rgba(201, 29, 192, 0.781) !important;
+transition: 0.5s;
+}
+.i-php:hover{
+color: rgb(60, 159, 224) !important;
+transition: 0.5s;
+}
+.i-html:hover{
+color: rgb(213, 224, 60) !important;
+transition: 0.5s;
+}
