@@ -155,7 +155,7 @@ body{
 @media (max-width: 576px) { 
 
 body{
-  font-size: small;
+  font-size: smaller !important;
 }
 li.nav-item{
   width: 25%;
@@ -164,10 +164,13 @@ li.nav-item{
   transform: translateX(1em) !important;
 
 }
-#number{
-  padding: 1em !important;
-  width: 35% !important;
+.site{
+  width: 25% !important;
 }
+.front{
+  font-size: medium !important;
+}
+
  }
 .i-react:hover{
 color: rgb(29, 175, 201) !important;
@@ -192,4 +195,5 @@ transition: 0.5s;
 .i-html:hover{
 color: rgb(213, 224, 60) !important;
 transition: 0.5s;
+
 }
